@@ -21,6 +21,10 @@ res.end() : เป็นการสิ้นสุด response และส่�
 ```
 ## จัดทำโดย นายกิตตินันท์ ชาญปรีชา 5835512020
 * ข้อมูลอ้างอิง https://devahoy.com/posts/getting-started-with-nodejs/
-```sh
-$ git commit -m "first commit"
+```sh 
+var http = require('http');
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('Hello World!');
+}).listen(8080);
 ```
