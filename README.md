@@ -11,3 +11,4 @@ http.createServer(function (req, res) {
 ```
 * เข้าหน้าเบราว์เซอร์ หลังจากนั้นใส่ลิงค์ http://localhost:8080/
 ### ผลลัพธ์
+<img src="HelloWorld.PNG">
