@@ -12,7 +12,6 @@ http.createServer(function (req, res) {
 * เข้าหน้าเบราว์เซอร์ หลังจากนั้นใส่ลิงค์ http://localhost:8080/
 ### ผลลัพธ์
 <img src="HelloWorld.PNG">
-##
 ```sh
  require('http') : เป็นการ import module http ซึ่งเป็น module หลักของ Node.js
  createServer() : เป็นการสร้าง Server ของ Node.js โดยรับ function ที่มี request และ response
