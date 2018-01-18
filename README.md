@@ -9,3 +9,5 @@ http.createServer(function (req, res) {
     res.end('Hello World!');
 }).listen(8080);
 ```
+* เข้าหน้าเบราว์เซอร์ หลังจากนั้นใส่ลิงค์ http://localhost:8080/
+###ผลลัพธ์
