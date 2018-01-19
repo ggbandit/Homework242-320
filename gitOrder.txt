@@ -16,5 +16,17 @@ git pull
 git stash pop # recover filenamegit add .
 git commit -m "..."
 git push
+
+git branch -a
+git branch dev #create branch
+git checkout -b new #create+switch to new branch
+git branch -d new_branch #delete branch
+
+after switch branch
+create dev.md 
+git add .
+git commit -m "Add dev.md"
+git push -u origin dev
+
 **************
 I love you.......
