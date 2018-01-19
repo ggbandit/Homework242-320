@@ -28,5 +28,12 @@ git add .
 git commit -m "Add dev.md"
 git push -u origin dev
 
+# การบ้าน
+Create 2 new branch (dev,feature)
+dev: dev.md
+feature: feature.MD
+switch to branch master 
+git merge --no-ff dev
+git merge --no-ff feature
 **************
 I love you.......
