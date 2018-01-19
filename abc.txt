@@ -1,4 +1,4 @@
 git checkout -- abc.txt
-sadasdasdas
-asdasdasdas
-asdasdasdasdasd
+git reset --soft "HEAD^" (discard commit)
+git reset HEAD abc.txt (discard add)
+git checkout abc.txt (discard edit)
