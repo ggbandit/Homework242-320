@@ -9,5 +9,12 @@ git checkout filename
 git add . //ดูการเปลี่ยนแปลง
 git commit -m "message"
 git push
+
+git add .
+git stash #hide your update
+git pull
+git stash pop # recover filenamegit add .
+git commit -m "..."
+git push
 **************
 I love you.......
