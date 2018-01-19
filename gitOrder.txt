@@ -1,4 +1,4 @@
-git checkout -- abc.txt
+﻿git checkout -- abc.txt
 git reset --soft "HEAD^" (discard commit)
 git reset HEAD abc.txt (discard add) undo
 git checkout abc.txt (discard edit)
@@ -10,3 +10,4 @@ git add . //ดูการเปลี่ยนแปลง
 git commit -m "message"
 git push
 **************
+I love you.......
