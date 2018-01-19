@@ -2,3 +2,4 @@ git checkout -- abc.txt
 git reset --soft "HEAD^" (discard commit)
 git reset HEAD abc.txt (discard add)
 git checkout abc.txt (discard edit)
+**************
