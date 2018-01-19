@@ -1,4 +1,1 @@
 git checkout -- abc.txt
-asdasdasdasd
-sadasdasdasd
-asdasdasdasd
