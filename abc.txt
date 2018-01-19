@@ -2,4 +2,11 @@ git checkout -- abc.txt
 git reset --soft "HEAD^" (discard commit)
 git reset HEAD abc.txt (discard add) undo
 git checkout abc.txt (discard edit)
+# กู้ไฟล์คืน
+git reset HEAD fliename
+git checkout filename
+
+git add . //ดูการเปลี่ยนแปลง
+git commit -m "message"
+git push
 **************
