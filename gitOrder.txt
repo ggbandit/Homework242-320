@@ -72,5 +72,6 @@ done (ทำเสร็จแล้ว)
 * gitlab
 continues contigration
 
+*** การแก้ config
 logout from PC --> start credential manager ->Windows credential
 git cheat-sheet (tutorial)
