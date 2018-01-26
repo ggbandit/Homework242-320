@@ -48,9 +48,14 @@ git log --oneline --decorate(help beautiful graph) --graph
 ## tag
 git tag v1.0.0
 git push --tags
-git checkout v1.0.0 (same number of commit)
+git checkout v1.0.0 (same commit_number)
+git tag -d v1.0.0 (delete tag)
 
-
-
+## close issues
+echo "closeIssue" > issue.txt
+git add .
+git commit -m "fix #1 closefeature" (close issue)
+git push -u origin master
 
 logout from PC --> start credential manager ->Windows credential
+git cheat-sheet (tutorial)
