@@ -21,6 +21,7 @@ git branch -a
 git branch dev #create branch
 git checkout -b new #create+switch to new branch
 git branch -d new_branch #delete branch
+git push origin --delete nameBranch (delete branch from remote or github)
 
 after switch branch
 create dev.md 
@@ -33,12 +34,23 @@ Create 2 new branch (dev,feature)
 dev: dev.md
 feature: feature.MD
 switch to branch master 
-git merge --no-ff dev
-git merge --no-ff feature
+git merge --no-ff dev (move data from branch dev to master)
+git merge --no-ff feature (move data from branch feature to master)
+git push -u origin master
 **************
 I love you.......
-## 
+## move HEAD
 git log
 git log --oneline
-git log --oneline --decorate --graph
+git log --oneline --decorate(help beautiful graph) --graph
 (q to exit)
+
+## tag
+git tag v1.0.0
+git push --tags
+git checkout v1.0.0 (same number of commit)
+
+
+
+
+logout from PC --> start credential manager ->Windows credential
