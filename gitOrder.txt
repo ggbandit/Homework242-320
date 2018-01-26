@@ -37,3 +37,8 @@ git merge --no-ff dev
 git merge --no-ff feature
 **************
 I love you.......
+## 
+git log
+git log --oneline
+git log --oneline --decorate --graph
+(q to exit)
