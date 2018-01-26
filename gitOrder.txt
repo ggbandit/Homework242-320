@@ -69,5 +69,8 @@ done (ทำเสร็จแล้ว)
 
 ## Wiki
 
+* gitlab
+continues contigration
+
 logout from PC --> start credential manager ->Windows credential
 git cheat-sheet (tutorial)
