@@ -57,5 +57,17 @@ git add .
 git commit -m "fix #1 closefeature" (close issue)
 git push -u origin master
 
+## milestones
+กำหนดเป้าหมายของ project 
+สามารถผูกกับ issue ได้
+ไปที่ issue ->
+
+## projects
+to do(ต้องการจะทำ)
+in progress(กำลังทำ)
+done (ทำเสร็จแล้ว)
+
+## Wiki
+
 logout from PC --> start credential manager ->Windows credential
 git cheat-sheet (tutorial)
